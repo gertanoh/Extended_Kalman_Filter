@@ -8,10 +8,10 @@
 
 ### Highlights ###
 * Sensor Fusion with lidar and radar data
-
+* Linear motion model
 * Eigen library and cmake
 
 ### Results ###
 
-* The output is the rooted square mean error 
+* The output is the root square mean error 
 * The visualization.py helps to see the estimate of Kalman filter, the measurements and the ground truth
