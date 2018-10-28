@@ -79,11 +79,10 @@ public:
   void UpdateEKF(const Eigen::VectorXd &z);
 	
 private:
-	void KalmanMeasurement(const Eigen::VectorXd& y);
 	
-	
-
-	
+  
+  void KalmanMeasurement(const Eigen::VectorXd& y);
+			
 	
 };
 
